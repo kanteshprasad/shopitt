@@ -1,0 +1,213 @@
+@media only screen and (max-width:399px){
+  .svgContainer{
+    width: 100%;
+    padding-left: 2%;
+  padding-right: 2%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 10% 10% 5% 10% 10% 5% 10% 10% 5% 10% 10% 5% ;
+    justify-content: center;
+    align-items: center;
+    grid-template-areas: 
+    "svg1 caption1"
+    "space1 space1 "
+    "break1 break1 "
+    "caption2 svg2"
+    "space2 space2"
+    "break2 break2"
+    "svg3 caption3"
+    "space3 space3"
+    "break3 break3"
+    "caption4 svg4"
+    "space4 space4"
+    "break4 break4"
+    ;
+  }
+  
+  .heroContainer{
+    height: 800vh;
+  }
+  .info1, .info2 , .info3, .info4 {
+    height: 90%;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 70%;
+  }
+  
+  
+  
+  /* .........................detailedviewroute.................... */
+  
+  .productdetailedview{
+    height: 100vh;
+    flex-direction: column;
+    margin-left: 0%;
+    width: 90%;
+    align-items: center;
+  }
+  
+  .image-slider{
+    height: 80%;
+    width: 100%;
+  }
+  
+  .image-slider > img{
+    height: 50%;
+    width: 50%;
+  }
+  
+  .navbar{
+    display: flex;
+    width: 100vw;
+    padding-left:0;
+    padding-right:0;  
+    height: max-content;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dash{
+    display: none;
+  }
+  
+
+
+  .userAuthenticationBtn{
+    height: max-content;
+    flex-direction: column;
+    justify-content: space-around;
+    margin:0;
+    width: 100vw;
+  }
+  .large{
+    display: none;
+  }
+  
+  .navList {
+    border-top: none;
+  }
+
+  .small{
+  
+    display: block;
+    font-size: 60px ;
+    text-decoration:none;
+    font-family:'Vina Sans', sans-serif;
+    color:orange;
+  }
+
+}
+
+@media only screen and (min-width:400px) and (max-width: 900px){
+
+
+ 
+/* ................nav................ */
+
+.navbar{
+  display: flex;
+  width: 100vw;
+  padding-left:0;
+  padding-right:0;  
+  height: max-content;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash{
+  display: none;
+}
+
+.userAuthenticationBtn{
+  height: max-content;
+  flex-direction: row;
+  justify-content: space-around;
+  margin:0;
+  width: 100vw;
+}
+
+.large{
+  display: none;
+}
+
+.small{
+
+  display: block;
+  font-size: 60px ;
+  text-decoration:none;
+  font-family:'Vina Sans', sans-serif;
+  color:orange;
+}
+
+.navList {
+  border-top: none;
+}
+/* .....................card container.................. */
+
+
+
+
+
+
+
+
+
+
+
+/* ................Hero Container................ */
+.svgContainer{
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 10% 10% 5% 10% 10% 5% 10% 10% 5% 10% 10% 5% ;
+  justify-content: center;
+  align-items: center;
+  grid-template-areas: 
+  "svg1 caption1"
+  "space1 space1 "
+  "break1 break1 "
+  "caption2 svg2"
+  "space2 space2"
+  "break2 break2"
+  "svg3 caption3"
+  "space3 space3"
+  "break3 break3"
+  "caption4 svg4"
+  "space4 space4"
+  "break4 break4"
+  ;
+}
+
+.heroContainer{
+  height: 800vh;
+}
+.info1, .info2 , .info3, .info4 {
+  height: 90%;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 70%;
+}
+
+
+
+/* .........................detailedviewroute.................... */
+
+.productdetailedview{
+  height: 100vh;
+  flex-direction: column;
+  margin-left: 10%;
+  width: 80%;
+  align-items: center;
+}
+
+.image-slider{
+  height: 80%;
+  width: 100%;
+}
+
+.image-slider > img{
+  height: 50%;
+  width: 50%;
+}
+
+}
